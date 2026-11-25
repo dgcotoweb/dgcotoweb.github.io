@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aplicaciones Móviles — Portal de Desarrollador</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --text: #1b2430;
+      --muted: #5a677a;
+      --accent: #1967d2;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 32px 16px;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+    }
+    h1 { margin: 0 0 8px; font-size: 1.75rem; }
+    p.lead { margin: 0 0 24px; color: var(--muted); }
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    .card h2 { margin: 0 0 8px; font-size: 1.2rem; }
+    .links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+    a.btn {
+      display: inline-block;
+      text-decoration: none;
+      color: #ffffff;
+      background: var(--accent);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-weight: 500;
+      font-size: 0.92rem;
+    }
+    a.btn.secondary {
+      background: #edf2ff;
+      color: var(--accent);
+    }
+    footer {
+      margin-top: 24px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Portal de Aplicaciones</h1>
+    <p class="lead">Sitio oficial de información legal, soporte y verificación de nuestras aplicaciones móviles en Google Play.</p>
+
+    <section class="card">
+      <h2>BajaVideo y BajaVideo Pro</h2>
+      <p>Aplicación de herramientas para guardar y administrar tus archivos multimedia desde enlaces compatibles.</p>
+      <div class="links">
+        <a class="btn" href="/bajavideo-legal/">Sitio de BajaVideo</a>
+        <a class="btn secondary" href="/bajavideo-legal/privacidad/">Política de Privacidad</a>
+        <a class="btn secondary" href="/bajavideo-legal/soporte/">Soporte y Condiciones</a>
+      </div>
+    </section>
+
+    <footer>
+      Contacto de soporte: <a href="mailto:dg@cotoweb.com">dg@cotoweb.com</a> ·
+      <a href="/app-ads.txt">app-ads.txt</a>
+    </footer>
+  </main>
+</body>
+</html>
